@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porichoy - নৈতিক মূল্যবোধ ও পরিবেশ সচেতনতা</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2E7D32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #A5D6A7;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1B5E20;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .product, .event {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .product img, .event img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .product button, .membership button, .contact button {
+            background-color: #2E7D32;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+    <script>
+        function addToCart(product) {
+            alert(product + " has been added to the cart!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Porichoy</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#donate">Donate</a>
+        <a href="#membership">Membership</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+    
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to promote ethical values, education awareness, and sustainable eco-friendly activities while addressing social issues.</p>
+    </div>
+    
+    <div class="container" id="products">
+        <h2>Our Eco-Friendly Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>৳500</p>
+            <button onclick="addToCart('Product 1')">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="container" id="membership">
+        <h2>Membership Signup</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Join Now</button>
+        </form>
+    </div>
+    
+    <div class="container" id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <img src="event1.jpg" alt="Event 1">
+            <h3>Eco Workshop</h3>
+            <p>Join our eco-friendly workshop to learn sustainable practices.</p>
+        </div>
+    </div>
+    
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Porichoy. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/company/porichoy" target="_blank">LinkedIn</a>
+            <a href="https://wa.me/yourwhatsappnumber" target="_blank">WhatsApp</a>
+            <a href="https://youtube.com/porichoy" target="_blank">YouTube</a>
+            <a href="https://facebook.com/porichoy" target="_blank">Facebook</a>
+            <a href="https://twitter.com/porichoy" target="_blank">Twitter</a>
+            <a href="https://instagram.com/porichoy" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
